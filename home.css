@@ -1,0 +1,373 @@
+/* Fonts */
+@font-face {
+	font-family: helvut;
+	src: url(fonts/hn/HelveticaNeue-UltraLight.ttf);
+}
+
+@font-face {
+    font-family: helvt;
+    src: url(fonts/hn/HelveticaNeue-Thin.ttf);
+}
+
+@font-face {
+	font-family: helvuti;
+	src: url(fonts/hn/HelveticaNeue-UltraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: helvti;
+    src: url(fonts/hn/HelveticaNeue-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: helvl;
+    src: url(fonts/hn/HelveticaNeue-Light.ttf);
+}
+
+@font-face {
+    font-family: helv;
+    src: url(fonts/hn/HelveticaNeue.ttf);
+}
+
+@font-face {
+    font-family: pacific;
+    src: url(fonts/pacifico/Pacifico.ttf);
+}
+
+@font-face {
+    font-family: loobster;
+    src: url(fonts/lobster/Lobster.otf);
+}
+
+@font-face {
+    font-family: hipster;
+    src: url(fonts/Hipster/HipsterishFontNormal.ttf);
+}
+
+@font-face {
+    font-family: quicksandl;
+    src: url(fonts/Quicksand/Quicksand-Light.otf);
+}
+
+@font-face {
+    font-family: title;
+    src: url(fonts/basictitlefont.ttf);
+}
+
+@font-face {
+    font-family: cookies;
+    src: url(fonts/cookies/Cookie-Dough.otf);
+}
+
+@font-face {
+    font-family: sparklez;
+    src: url(fonts/cartoonspark/sparklez.otf);
+}
+
+@font-face {
+    font-family: cartoon;
+    src: url(fonts/cartoon/cartoon.otf);
+}
+
+@font-face {
+    font-family: donuts;
+    src: url(fonts/PWYummyDonuts.ttf);
+}
+
+@font-face {
+    font-family: marker;
+    src: url(fonts/marker_monkey_fw/MarkerMonkey.ttf);
+}
+
+@font-face {
+    font-family: amazon;
+    src: url(fonts/amazon_palafita/AmazonPalafita.ttf);
+}
+
+/* Home Page */
+#blurred-image-container {
+    display:block;
+    padding:0;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;
+}
+
+.img-src { 
+    position: fixed;
+    background:url(assets/Fotolia_84655000_XL.jpg) center center;
+    background-size: cover;
+    top: -10%;
+    bottom: 10%;
+    left: -10%;
+    right: 10%;
+    width: 110%;
+    height: 115%;
+}
+
+.img-src.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(0.7);
+    -ms-filter: blur(20px) brightness(0.7);
+    -o-filter: blur(20px) brightness(0.7);
+    filter: blur(20px) brightness(0.7);
+}
+
+.section-2 {
+    background-color: rgba(255,255,255,.85);
+    height: inherit;
+}
+
+.section-3-wallpaper {
+    background-image: url(assets/40-vegetables-flat-affinity-bowl.png);
+    background-color: rgba(175, 255, 205, .25);
+    background-attachment: absolute;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: inherit;
+}
+
+.section-4-wallpaper {
+    background-image: url(assets/topview-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: inherit;
+}
+
+
+.section-5-wallpaper {
+    background: linear-gradient(to bottom, #f2f2f2 0%,#ffffff 98%,#ffffff 100%);
+    background-size: cover;
+    opacity: .98;
+}
+
+.menu {
+    position: fixed;
+    z-index: +1000;
+    margin: auto;
+    height: 40px;
+	width: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    color: white;
+    background-color: rgba(5,5,5, 0.45);
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(1,1,1, .2);
+}
+
+.menutd {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    font-family: helvt;
+    font-weight: 500;
+    padding-bottom:5px;
+}
+
+.menutd a {
+    color: white;
+    text-decoration:none;
+}
+
+.menutd a:hover {
+    color: white;
+    text-decoration:none;
+}
+
+.title {
+    padding-top: 125px;
+    color: white;
+}
+
+.title .box {
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 650px;
+    height: auto;
+    border-radius: 2px;
+    background-color: rgba(15,15,15, .75);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(1,1,1, .25);
+}
+
+.title .title-line-1 {
+    font-size: 70px;
+    font-family: title;
+    line-height: 50px;
+    padding-top: 30px;
+}
+
+.title .title-line-2 {
+    padding-top:1px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: helvuti;
+}
+
+.scrolldown-icon {
+    padding-top: 25px;
+    width: 100px;
+}
+
+.malnutrition-title {
+    color: black;
+    line-height: 20px;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    font-size: 45px;
+    font-family: pacific;
+}
+
+.malnutrition-subtitle {
+    color: black;
+    padding-top: 25px;
+    line-height: 20px;
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    font-family: pacific;
+}
+
+.mal-link {
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: helvt;
+    text-align: center;
+    line-height: 75px;
+}
+
+.mal-link a {
+    color: rgba(25, 25, 25, .75);
+    text-decoration: none;
+    -webkit-transition: .25s;
+}
+
+.mal-link a:hover {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .9);
+}
+
+.boldo {
+    font-family: helvl;
+}
+
+
+.diet-title {
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 20px;
+    padding-left: 525px;
+    font-size: 60px;
+    font-family: pacific;
+}
+
+.diet-undertitle {
+    font-family: helvt;
+    text-align: center;
+    padding-left: 525px;
+    text-decoration: none;
+    color: black;
+}
+
+.sub-dieting a {
+    font-size: 20px;
+    color: rgba(25, 25, 25, .75);
+    text-decoration: none;
+    -webkit-transition: .25s;
+}
+
+.sub-dieting a:hover {
+    font-size: 20px;
+    color: rgba(0, 0, 0, .9);
+    text-decoration: none;
+    -webkit-transition: .25s;
+}
+
+.title-section-4 {
+    padding-top: 300px;
+    color: white;
+}
+
+.title-section-4 .box-section-4 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 550px;
+    height: auto;
+    border-radius: 2px;
+    background-color: rgba(10,10,10, 0.90);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(1,1,1, .3);
+}
+
+.title-line-4 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    font-family: helvt;
+}
+
+.title-line-5 a {
+    padding-top:1px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: helvti;
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
+    -webkit-transition: .25s;
+}
+
+.title-line-5 a:hover {
+    padding-top:1px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: helvti;
+    color: rgba(255, 255, 255, .9);
+    text-decoration: none;
+    -webkit-transition: .25s;
+}
+
+.title-section-5 {
+    font-family: pacific;
+    padding-top: 125px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 55px;
+    color: rgba(5,5,5);
+}
+
+.names {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.names h2 {
+    font-family: helvt;
+    font-size:30px;
+}
+
+.names p {
+    font-family: helvut;
+    font-size: 20px;
+}
+
+.info-bottom {
+    padding-top: 50px;
+    font-family: helvt;
+    font-size 25px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.info-bottom-2 {
+    padding-top: 0;
+    font-family: helvt;
+    font-size 15;
+    text-align: center;
+    padding-bottom: 5000px;
+}
